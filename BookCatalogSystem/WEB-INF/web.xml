@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>SignupServlet</servlet-name>
+		<servlet-class>SignupServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignupServlet</servlet-name>
+		<url-pattern>/SignupServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DisplayUserCatalog</servlet-name>
+		<servlet-class>DisplayUserCatalog</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DisplayUserCatalog</servlet-name>
+		<url-pattern>/DisplayUserCatalog</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>DisplayBooksServlet</servlet-name>
+		<servlet-class>DisplayBooksServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DisplayBooksServlet</servlet-name>
+		<url-pattern>/DisplayBooksServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddBookServlet</servlet-name>
+		<servlet-class>AddBookServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddBookServlet</servlet-name>
+		<url-pattern>/AddBookServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteBookServlet</servlet-name>
+		<servlet-class>DeleteBookServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DeleteBookServlet</servlet-name>
+		<url-pattern>/DeleteBookServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateBookServlet</servlet-name>
+		<servlet-class>UpdateBookServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdateBookServlet</servlet-name>
+		<url-pattern>/UpdateBookServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RemoveBookServlet</servlet-name>
+		<servlet-class>RemoveBookServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RemoveBookServlet</servlet-name>
+		<url-pattern>/RemoveBookServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddToCartServlet</servlet-name>
+		<servlet-class>AddToCartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddToCartServlet</servlet-name>
+		<url-pattern>/AddToCartServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RemoveFromCartServlet</servlet-name>
+		<servlet-class>RemoveFromCartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RemoveFromCartServlet</servlet-name>
+		<url-pattern>/RemoveFromCartServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewCartServlet</servlet-name>
+		<servlet-class>ViewCartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ViewCartServlet</servlet-name>
+		<url-pattern>/ViewCartServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
